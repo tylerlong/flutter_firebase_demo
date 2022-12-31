@@ -85,3 +85,10 @@ And most popular names have been taken, such as "flutter-demo". 我取名为 "fl
 然后它做的事情是帮我在 firebase console 创建了 apps。并且本地生成了一些文件包含了 app key, app id 之类的。
 
 `flutterfire configure` 这个命令可以多次执行。尤其是新增platform支持的时候必须要执行。
+
+
+## Install flutter libraries
+
+```
+flutter pub add firebase_core
+```
