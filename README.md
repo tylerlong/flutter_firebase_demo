@@ -1,16 +1,42 @@
 # flutter_firebase_demo
 
-A new Flutter project.
+A new Flutter Firebase demo project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Create the project
 
-A few resources to get you started if this is your first Flutter project:
+```
+flutter create flutter_firebase_demo
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run the project
+
+```
+flutter run -d chrome
+```
+
+
+## Install firebase CLI
+
+```
+curl -sL https://firebase.tools | bash
+```
+
+You will need to enter admin password of your machine.
+
+
+## Login firebase
+
+```
+firebase login
+```
+
+You will need to login your Google account in browser
+
+
+## List all firebase projects
+
+```
+firebase projects:list
+```
