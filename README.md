@@ -8,6 +8,7 @@ A Flutter Firebase demo project.
 - https://github.com/tylerlong/flutter_todo_riverpod
 - https://firebase.google.com/docs/cli#install-cli-mac-linux
 - https://firebase.google.com/docs/flutter/setup?platform=web
+- https://firebase.google.com/codelabs/firebase-get-to-know-flutter#0
 
 
 ## Create the project
@@ -92,4 +93,6 @@ And most popular names have been taken, such as "flutter-demo". 我取名为 "fl
 
 ```
 flutter pub add firebase_core
+flutter pub add firebase_auth
+flutterfire configure
 ```
